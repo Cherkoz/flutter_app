@@ -1,0 +1,77 @@
+name: grocery_delivery
+description: A Flutter app for grocery delivery
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.2 <4.0.0"
+  flutter: ^3.35.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  blurrycontainer: ^2.1.0
+  cached_network_image: ^3.4.1
+  cubit_form: ^2.0.5
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.1.0 # remember to update FirebaseFirestore in ios/Podfile with correct version when changing version here
+  firebase_messaging: ^16.0.1
+  font_awesome_flutter: ^10.10.0
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  flutter_bloc: ^8.1.1
+  get_it: ^8.2.0
+  intl: any
+  json_annotation: ^4.9.0
+  json_serializable: ^6.9.5
+  modal_bottom_sheet: ^3.0.0
+  overlay_support: ^2.1.0
+  ru_phone_formatter: ^1.0.1
+  shared_preferences: ^2.5.3
+  shimmer: ^3.0.0
+  talker: ^4.9.3
+  talker_dio_logger: ^4.9.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  build_runner: ^2.4.15
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SF UI Display
+      fonts:
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Ultralight.ttf
+          weight: 100
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Thin.ttf
+          weight: 200
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Light.ttf
+          weight: 300
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Regular.ttf
+          weight: 400
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Medium.ttf
+          weight: 500
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Semibold.ttf
+          weight: 600
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Bold.ttf
+          weight: 700
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Heavy.ttf
+          weight: 800
+        - asset: assets_common/fonts/SanFrancisco/SFProDisplay-Black.ttf
+          weight: 900
+    - family: SF UI Text
+      fonts:
+        - asset: assets_common/fonts/SanFrancisco/SFProText-Light.ttf
+          weight: 300
+        - asset: assets_common/fonts/SanFrancisco/SFProText-Regular.ttf
+          weight: 400
+        - asset: assets_common/fonts/SanFrancisco/SFProText-Medium.ttf
+          weight: 500
+        - asset: assets_common/fonts/SanFrancisco/SFProText-Semibold.ttf
+          weight: 600
+        - asset: assets_common/fonts/SanFrancisco/SFProText-Bold.ttf
+          weight: 700

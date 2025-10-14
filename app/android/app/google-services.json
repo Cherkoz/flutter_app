@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "618943592677",
+    "project_id": "myasnoe-mesto",
+    "storage_bucket": "myasnoe-mesto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618943592677:android:b6e3a4c9c95d33b3b33c0c",
+        "android_client_info": {
+          "package_name": "ru.myasnoe_mesto.groceries"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKYUJ78xDtM8ih2uIvuH0NryslY2KfFok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
