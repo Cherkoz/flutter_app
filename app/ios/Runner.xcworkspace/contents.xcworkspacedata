@@ -7,4 +7,854 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:../.."
+      name = "..">
+      <Group
+         location = "group:app"
+         name = "app">
+         <FileRef
+            location = "group:devtools_options.yaml">
+         </FileRef>
+         <Group
+            location = "group:web"
+            name = "web">
+            <FileRef
+               location = "group:index.html">
+            </FileRef>
+            <FileRef
+               location = "group:favicon.png">
+            </FileRef>
+            <Group
+               location = "group:icons"
+               name = "icons">
+               <FileRef
+                  location = "group:Icon-192.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-maskable-192.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-maskable-512.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Icon-512.png">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:manifest.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:pubspec.lock">
+         </FileRef>
+         <Group
+            location = "group:assets_common"
+            name = "assets_common">
+            <Group
+               location = "group:fonts"
+               name = "fonts">
+               <Group
+                  location = "group:SanFrancisco"
+                  name = "SanFrancisco">
+                  <FileRef
+                     location = "group:SFProText-Medium.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProText-Heavy.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Ultralight.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProText-Semibold.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProText-Regular.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Medium.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Black.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProText-Light.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Light.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Regular.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Bold.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProText-Bold.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Semibold.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Heavy.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SFProDisplay-Thin.ttf">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ios"
+            name = "ios">
+            <FileRef
+               location = "group:Runner.xcworkspace">
+            </FileRef>
+            <Group
+               location = "group:RunnerTests"
+               name = "RunnerTests">
+               <FileRef
+                  location = "group:RunnerTests.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Runner"
+               name = "Runner">
+               <FileRef
+                  location = "group:Runner-Bridging-Header.h">
+               </FileRef>
+               <Group
+                  location = "group:Assets.xcassets"
+                  name = "Assets.xcassets">
+                  <Group
+                     location = "group:LaunchImage.imageset"
+                     name = "LaunchImage.imageset">
+                     <FileRef
+                        location = "group:LaunchImage@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LaunchImage@3x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:README.md">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                     <FileRef
+                        location = "group:LaunchImage.png">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:AppIcon.appiconset"
+                     name = "AppIcon.appiconset">
+                     <FileRef
+                        location = "group:Icon-App-76x76@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-29x29@1x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-40x40@1x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-20x20@1x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-1024x1024@1x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-83.5x83.5@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-20x20@3x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Contents.json">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-20x20@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-29x29@3x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-40x40@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-60x60@3x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-60x60@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-76x76@1x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-40x40@3x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Icon-App-29x29@2x.png">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:GoogleService-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:GeneratedPluginRegistrant.h">
+               </FileRef>
+               <Group
+                  location = "group:Base.lproj"
+                  name = "Base.lproj">
+                  <FileRef
+                     location = "group:LaunchScreen.storyboard">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Main.storyboard">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:AppDelegate.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GeneratedPluginRegistrant.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Info.plist">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Runner.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:Flutter"
+               name = "Flutter">
+               <FileRef
+                  location = "group:flutter_export_environment.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:AppFrameworkInfo.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Generated.xcconfig">
+               </FileRef>
+               <Group
+                  location = "group:ephemeral"
+                  name = "ephemeral">
+                  <FileRef
+                     location = "group:flutter_lldbinit">
+                  </FileRef>
+                  <FileRef
+                     location = "group:flutter_lldb_helper.py">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Podfile">
+            </FileRef>
+            <FileRef
+               location = "group:Podfile.lock">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:pubspec.yaml">
+         </FileRef>
+         <Group
+            location = "group:android"
+            name = "android">
+            <Group
+               location = "group:app"
+               name = "app">
+               <FileRef
+                  location = "group:build.gradle">
+               </FileRef>
+               <FileRef
+                  location = "group:google-services.json">
+               </FileRef>
+               <Group
+                  location = "group:src"
+                  name = "src">
+                  <Group
+                     location = "group:profile"
+                     name = "profile">
+                     <FileRef
+                        location = "group:AndroidManifest.xml">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:main"
+                     name = "main">
+                     <Group
+                        location = "group:res"
+                        name = "res">
+                        <Group
+                           location = "group:mipmap-mdpi"
+                           name = "mipmap-mdpi">
+                           <FileRef
+                              location = "group:ic_launcher.png">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:mipmap-hdpi"
+                           name = "mipmap-hdpi">
+                           <FileRef
+                              location = "group:ic_launcher.png">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:drawable"
+                           name = "drawable">
+                           <FileRef
+                              location = "group:launch_background.xml">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:mipmap-xxxhdpi"
+                           name = "mipmap-xxxhdpi">
+                           <FileRef
+                              location = "group:ic_launcher.png">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:mipmap-xxhdpi"
+                           name = "mipmap-xxhdpi">
+                           <FileRef
+                              location = "group:ic_launcher.png">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:values-night"
+                           name = "values-night">
+                           <FileRef
+                              location = "group:styles.xml">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:values"
+                           name = "values">
+                           <FileRef
+                              location = "group:styles.xml">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:drawable-v21"
+                           name = "drawable-v21">
+                           <FileRef
+                              location = "group:launch_background.xml">
+                           </FileRef>
+                        </Group>
+                        <Group
+                           location = "group:mipmap-xhdpi"
+                           name = "mipmap-xhdpi">
+                           <FileRef
+                              location = "group:ic_launcher.png">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                     <FileRef
+                        location = "group:AndroidManifest.xml">
+                     </FileRef>
+                     <Group
+                        location = "group:java"
+                        name = "java">
+                        <Group
+                           location = "group:io"
+                           name = "io">
+                           <Group
+                              location = "group:flutter"
+                              name = "flutter">
+                              <Group
+                                 location = "group:plugins"
+                                 name = "plugins">
+                                 <FileRef
+                                    location = "group:GeneratedPluginRegistrant.java">
+                                 </FileRef>
+                              </Group>
+                           </Group>
+                        </Group>
+                     </Group>
+                     <Group
+                        location = "group:kotlin"
+                        name = "kotlin">
+                        <Group
+                           location = "group:com"
+                           name = "com">
+                           <Group
+                              location = "group:example"
+                              name = "example">
+                              <Group
+                                 location = "group:products_app"
+                                 name = "products_app">
+                                 <FileRef
+                                    location = "group:MainActivity.kt">
+                                 </FileRef>
+                              </Group>
+                           </Group>
+                        </Group>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:debug"
+                     name = "debug">
+                     <FileRef
+                        location = "group:AndroidManifest.xml">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:local.properties">
+            </FileRef>
+            <Group
+               location = "group:gradle"
+               name = "gradle">
+               <Group
+                  location = "group:wrapper"
+                  name = "wrapper">
+                  <FileRef
+                     location = "group:gradle-wrapper.properties">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:build.gradle">
+            </FileRef>
+            <FileRef
+               location = "group:gradle.properties">
+            </FileRef>
+            <FileRef
+               location = "group:settings.gradle">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:generate.sh">
+         </FileRef>
+         <Group
+            location = "group:lib"
+            name = "lib">
+            <Group
+               location = "group:ui"
+               name = "ui">
+               <Group
+                  location = "group:screens"
+                  name = "screens">
+                  <FileRef
+                     location = "group:cart_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:contacts_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:product_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:my_order_details_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signup_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:profile_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:my_orders_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:checkout_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:category_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:catalog_screen.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:payment_and_delivery_screen.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:components"
+                  name = "components">
+                  <FileRef
+                     location = "group:brand_text_field.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_button.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_skeleton.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_button_backing.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_divider.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_network_image.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_preloader.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:product_card_cart.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:category_card.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_text_field_clear_suffix.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_loading_state_widget.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:product_card.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:search.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_button.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:theme"
+                  name = "theme">
+                  <FileRef
+                     location = "group:brand_colors.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_shadows.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:brand_typography.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:helpers"
+                  name = "helpers">
+                  <FileRef
+                     location = "group:toast.dart">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:firebase_options.dart">
+            </FileRef>
+            <Group
+               location = "group:logic"
+               name = "logic">
+               <Group
+                  location = "group:get_it"
+                  name = "get_it">
+                  <FileRef
+                     location = "group:get_it_config.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:forms"
+                  name = "forms">
+                  <FileRef
+                     location = "group:signup_form_cubit.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:checkout_form_cubit.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:auth_form_cubit.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:navigation"
+                  name = "navigation">
+                  <FileRef
+                     location = "group:router.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:models"
+                  name = "models">
+                  <FileRef
+                     location = "group:product.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:category.g.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:order_request.g.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:order.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:user.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:category.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:product.g.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:order.g.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:order_request.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:user.g.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:api"
+                  name = "api">
+                  <FileRef
+                     location = "group:api_client.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:api.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:services"
+                  name = "services">
+                  <FileRef
+                     location = "group:storage_service.dart">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:bloc"
+                  name = "bloc">
+                  <Group
+                     location = "group:products"
+                     name = "products">
+                     <FileRef
+                        location = "group:products_cubit.dart">
+                     </FileRef>
+                     <FileRef
+                        location = "group:products_state.dart">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:auth"
+                     name = "auth">
+                     <FileRef
+                        location = "group:auth_cubit.dart">
+                     </FileRef>
+                     <FileRef
+                        location = "group:auth_state.dart">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:cart_cubit.dart">
+                  </FileRef>
+                  <Group
+                     location = "group:my_orders"
+                     name = "my_orders">
+                     <FileRef
+                        location = "group:my_orders_state.dart">
+                     </FileRef>
+                     <FileRef
+                        location = "group:my_orders_cubit.dart">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:categories"
+                     name = "categories">
+                     <FileRef
+                        location = "group:categories_state.dart">
+                     </FileRef>
+                     <FileRef
+                        location = "group:categories_cubit.dart">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:favourites_cubit.dart">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:utils"
+               name = "utils">
+               <Group
+                  location = "group:extensions"
+                  name = "extensions">
+                  <FileRef
+                     location = "group:date_time.dart">
+                  </FileRef>
+                  <FileRef
+                     location = "group:list.dart">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:helper_functions.dart">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:main.dart">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:firebase.json">
+         </FileRef>
+         <FileRef
+            location = "group:analysis_options.yaml">
+         </FileRef>
+         <Group
+            location = "group:build"
+            name = "build">
+            <FileRef
+               location = "group:f61019181a390ebae04f980d79c3991a.cache.dill.track.dill">
+            </FileRef>
+            <Group
+               location = "group:f29804dcc19263b3615a1413eb90b010"
+               name = "f29804dcc19263b3615a1413eb90b010">
+               <FileRef
+                  location = "group:gen_localizations.stamp">
+               </FileRef>
+               <FileRef
+                  location = "group:gen_dart_plugin_registrant.stamp">
+               </FileRef>
+               <FileRef
+                  location = "group:_composite.stamp">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:flutter_assets"
+               name = "flutter_assets">
+               <FileRef
+                  location = "group:AssetManifest.json">
+               </FileRef>
+               <Group
+                  location = "group:assets_common"
+                  name = "assets_common">
+                  <Group
+                     location = "group:fonts"
+                     name = "fonts">
+                     <Group
+                        location = "group:SanFrancisco"
+                        name = "SanFrancisco">
+                        <FileRef
+                           location = "group:SFProText-Medium.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Ultralight.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProText-Semibold.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProText-Regular.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Medium.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Black.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProText-Light.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Light.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Regular.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Bold.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProText-Bold.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Semibold.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Heavy.ttf">
+                        </FileRef>
+                        <FileRef
+                           location = "group:SFProDisplay-Thin.ttf">
+                        </FileRef>
+                     </Group>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:NOTICES">
+               </FileRef>
+               <FileRef
+                  location = "group:FontManifest.json">
+               </FileRef>
+               <FileRef
+                  location = "group:AssetManifest.bin.json">
+               </FileRef>
+               <Group
+                  location = "group:packages"
+                  name = "packages">
+                  <Group
+                     location = "group:cupertino_icons"
+                     name = "cupertino_icons">
+                     <Group
+                        location = "group:assets"
+                        name = "assets">
+                        <FileRef
+                           location = "group:CupertinoIcons.ttf">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <Group
+                     location = "group:font_awesome_flutter"
+                     name = "font_awesome_flutter">
+                     <Group
+                        location = "group:lib"
+                        name = "lib">
+                        <Group
+                           location = "group:fonts"
+                           name = "fonts">
+                           <FileRef
+                              location = "group:Font%20Awesome%207%20Free-Solid-900.otf">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Font%20Awesome%207%20Free-Regular-400.otf">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Font%20Awesome%207%20Brands-Regular-400.otf">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:shaders"
+                  name = "shaders">
+                  <FileRef
+                     location = "group:ink_sparkle.frag">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:AssetManifest.bin">
+               </FileRef>
+               <Group
+                  location = "group:fonts"
+                  name = "fonts">
+                  <FileRef
+                     location = "group:MaterialIcons-Regular.otf">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
 </Workspace>
