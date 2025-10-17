@@ -141,6 +141,14 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
   }
 }
 
+const List<BottomNavigationBarItem> _navigationBarItems = [
+  BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: 'Главная'),
+  BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Домашка'),
+  BottomNavigationBarItem(icon: Icon(Icons.calendar_month), label: 'Расписание'),
+  BottomNavigationBarItem(icon: Icon(Icons.message_rounded), label: 'Сообщения'),
+  BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Профиль'),
+];
+
 class BrandBottomNavigationBar extends StatelessWidget {
   const BrandBottomNavigationBar({required this.tabController});
   final TabController tabController;
@@ -159,19 +167,13 @@ class BrandBottomNavigationBar extends StatelessWidget {
       child: BottomNavigationBar(
         selectedItemColor: BrandColors.accent,
         unselectedItemColor: BrandColors.textSecondary,
-        selectedLabelStyle: BrandTypography.caption,
-        unselectedLabelStyle: BrandTypography.caption,
+        selectedLabelStyle: BrandTypography.text10,
+        unselectedLabelStyle: BrandTypography.text10,
         backgroundColor: BrandColors.white,
         showUnselectedLabels: true,
-        iconSize: 20,
+        iconSize: 24,
         type: BottomNavigationBarType.fixed,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Главная'),
-          BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Каталог'),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_cart), label: 'Корзина'),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Избранное'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Профиль'),
-        ],
+        items: _navigationBarItems,
         currentIndex: tabController.index,
         onTap: tabController.animateTo,
       ),
@@ -204,19 +206,13 @@ class BrandSeparateBottomNavigationBar extends StatelessWidget {
       child: BottomNavigationBar(
         selectedItemColor: BrandColors.accent,
         unselectedItemColor: BrandColors.textSecondary,
-        selectedLabelStyle: BrandTypography.caption,
-        unselectedLabelStyle: BrandTypography.caption,
+        selectedLabelStyle: BrandTypography.text10,
+        unselectedLabelStyle: BrandTypography.text10,
         backgroundColor: BrandColors.white,
         showUnselectedLabels: true,
-        iconSize: 20,
+        iconSize: 24,
         type: BottomNavigationBarType.fixed,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Главная'),
-          BottomNavigationBarItem(icon: Icon(Icons.store), label: 'Каталог'),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_cart), label: 'Корзина'),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Избранное'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Профиль'),
-        ],
+        items: _navigationBarItems,
         currentIndex: getIt<AppRouter>().rootTabsKey.currentState?.curIndex ?? 0,
         onTap: onChange,
       ),
