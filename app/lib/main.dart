@@ -18,6 +18,7 @@ import 'package:grocery_delivery/logic/services/storage_service.dart';
 import 'package:grocery_delivery/ui/screens/cart_screen.dart';
 import 'package:grocery_delivery/ui/screens/catalog_screen.dart';
 import 'package:grocery_delivery/ui/screens/category_screen.dart';
+import 'package:grocery_delivery/ui/screens/home_screen.dart';
 import 'package:grocery_delivery/ui/screens/profile_screen.dart';
 import 'package:grocery_delivery/ui/theme/brand_colors.dart';
 import 'package:grocery_delivery/ui/theme/brand_typography.dart';
@@ -122,7 +123,7 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
   int get curIndex => tabController.index;
 
   static final List<Widget> _screens = [
-    const SizedBox(),
+    const HomeScreen(),
     CatalogScreen(),
     CartScreen(),
     const FavouritesCategoryScreen(),
@@ -143,8 +144,8 @@ class MainScreenState extends State<MainScreen> with SingleTickerProviderStateMi
 
 const List<BottomNavigationBarItem> _navigationBarItems = [
   BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: 'Главная'),
-  BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Домашка'),
   BottomNavigationBarItem(icon: Icon(Icons.calendar_month), label: 'Расписание'),
+  BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Домашка'),
   BottomNavigationBarItem(icon: Icon(Icons.message_rounded), label: 'Сообщения'),
   BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Профиль'),
 ];
